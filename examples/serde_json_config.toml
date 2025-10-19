@@ -1,0 +1,32 @@
+# serde_json 示例配置
+
+[serde_json]
+language = "rust"
+
+# 假设 serde_json 在这个路径
+crate_path = "examples/serde_json"
+
+source_paths = ["src"]
+test_paths = ["tests"]
+
+output_path = "output/serde_json"
+
+# 重点测试的模块
+target_modules = ["de", "ser", "value", "map"]
+
+# 排除路径
+exclude_paths = []
+
+# 启用的 features
+features = ["raw_value", "arbitrary_precision"]
+
+# API 提示
+api_hints = [
+    "from_str() 用于从字符串解析 JSON",
+    "to_string() 用于序列化为 JSON 字符串",
+    "Value 是 JSON 值的枚举表示",
+    "处理 JSON 时注意验证输入格式"
+]
+
+# 优先测试包含 unsafe 的函数
+prioritize_unsafe = true

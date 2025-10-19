@@ -1,0 +1,62 @@
+# RustFuzz .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 日志文件
+logs/
+*.log
+
+# 输出文件
+output/
+*.json
+*.csv
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# Fuzzing 相关
+fuzz/target/
+fuzz/corpus/
+fuzz/artifacts/
+crash-*
+leak-*
+timeout-*
+oom-*
+
+# 配置文件（包含敏感信息）
+config.toml
+!config.template.toml
+libraries.toml
+!libraries.template.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
+.cache/
+
+# LLM 相关
+.chroma/
+embeddings/

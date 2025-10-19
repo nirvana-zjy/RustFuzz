@@ -1,0 +1,60 @@
+# RustFuzz Python 依赖
+
+# Web 框架和工具
+bs4==0.0.2
+beautifulsoup4==4.12.3
+chardet==5.2.0
+click==8.1.7
+parse==1.20.2
+
+# LLM 和向量数据库
+chromadb==0.6.3
+langchain-chroma==0.2.2
+langchain-community==0.3.17
+langchain-openai==0.3.6
+langchain-unstructured==0.1.6
+openai==1.63.2
+ollama==0.4.7
+tiktoken==0.9.0
+
+# 日志和终端
+loguru==0.7.2
+libtmux==0.44.2
+
+# 数据处理
+markdown==3.7
+matplotlib==3.10.1
+openpyxl==3.1.5
+tomlkit==0.13.3
+unstructured==0.16.21
+
+# 代码解析
+tree-sitter==0.24.0
+tree-sitter-c==0.23.0
+tree-sitter-cpp==0.23.4
+tree-sitter-rust==0.23.2
+
+# Rust 特定工具
+# 用于解析 Cargo.toml
+tomli==2.0.2
+tomli-w==1.1.0
+
+# 用于 Rust 代码分析
+rustworkx==0.15.1
+
+# 用于处理 Rust 文档
+lxml==5.3.0
+
+# 数据科学和分析
+pandas==2.2.3
+numpy==2.2.1
+scipy==1.14.1
+
+# 异步支持
+aiofiles==24.1.0
+httpx==0.28.1
+
+# 工具类
+tqdm==4.67.1
+pyyaml==6.0.2
+jinja2==3.1.4
