@@ -401,16 +401,16 @@ features = ["raw_value", "arbitrary_precision"]
 
 ## 🙏 致谢
 
-- 基于 [PromeFuzz](https://github.com/PrometheusFuzz/PromeFuzz) 框架
+- 基于 [PromeFuzz](https://github.com/pvz122/PromeFuzz) 框架
 - 使用 [tree-sitter-rust](https://github.com/tree-sitter/tree-sitter-rust) 进行代码解析
-- 集成 [cargo-fuzz](https://github.com/RustFuzz/cargo-fuzz) 作为 fuzzing 引擎
+- 集成 [cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) 作为 fuzzing 引擎
 
 ---
 
 ## 📞 获取帮助
 
 - 📖 查看 [完整文档](docs/README.md)
-- 💬 提交 [Issue](https://github.com/your-repo/RustFuzz/issues)
+- 💬 提交 [Issue](https://github.com/nirvana-zjy/RustFuzz/issues)
 - 🔧 查看 `logs/` 目录中的日志文件
 
 ---
